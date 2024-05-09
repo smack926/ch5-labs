@@ -7,12 +7,25 @@
 <head>
 	<title>Strike a Chord Music School</title>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+    <!-- Added Google Fonts link for DM Serif Display and Roboto fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Roboto&display=swap">
+    <style>
+        /* Apply font styles */
+        header h1 {
+            font-family: 'DM Serif Display', serif;
+        }
+        main {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 	<header>
-		<h1>&#9836; Strike a Chord &#9836;</h1>
+		<h1><span class="tab-desk">&#9836;</span> Strike a Chord <span class="tab-desk">&#9836;</span></h1> <!-- Updated heading 1 element -->
 		<nav>
 			<a href="index.html">Home</a>
 			<a href="lessons.html">Lessons</a>
@@ -22,9 +35,9 @@
 		</nav>
 		
 		<!-- Hero Image -->
-<div id="hero">
-	<img src="images/music-notes.png" alt="colorful music notes">
-	</div>
+        <div id="hero" class="tab-desk">
+            <img src="images/music-notes.png" alt="colorful music notes">
+        </div>
 
 	</header>
 	

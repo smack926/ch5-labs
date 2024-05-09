@@ -4,8 +4,8 @@ Date: 2/19/2024
 File Name: styles.css
 */
 
-/* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+/* CSS Reset including ul selector */
+body, header, nav, main, footer, img, h1, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,16 +17,24 @@ img {
     display: block;
 }
 
+/* Style rules for mobile viewport */
+/* Add your style rules for mobile viewport here */
+
+
+/* Hide tab-desk class */
+/* Add your style rules to hide tab-desk class here */
+.tab-desk {
+    display: none;
+}
+
 /* Style rules for header content */
 header {
     text-align: center;
-    font-size: 3em;
+    font-size: 1.5em; /* Updated font-size to 1.5em */
     color: #373684;
 }
 
-    header h1 {
-    font-style: italic;
-}
+/* Removed font-style: italic from header h1 */
 
 /* Style rules for navigation area */
 nav {
@@ -35,13 +43,13 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    text-align: center;
+    /* Removed margin declaration */
 }
 
 nav li {
-    display: inline-block;
+    display: block; /* Changed display value to block */
     font-size: 2em;
+    border-top: 1px solid #e5e9fc; /* Added border-top */
 }
 
 nav li a {
@@ -65,14 +73,13 @@ main p {
 }
 
 .action {
-    font-size: 1.75em;
+    font-size: 1.25em; /* Changed font-size to 1.25em */
     color: #373684;
     font-weight: bold;
 }
 
 #piano, #guitar, #violin {
-    width: 29%;
-    float: left;
+    /* Removed width and float declarations */
     margin: 0 2%;
 }
 
@@ -82,18 +89,50 @@ main p {
     padding: 1% 2%;
 }
 
+#info ul {
+    margin-left: 10%;
+}
+
+/* New style rule for round class */
+.round {
+    border-radius: 8px;
+}
+
 #contact {
     text-align: center;
 }
 
-#contact a {
+/* Updated selector from #contact a to #contact .email-link */
+#contact .email-link {
     color: #4645a8;
     text-decoration: none;
     font-weight: bold;
+    /* Added width property */
+    width: 95%;
 }
 
+/* Updated width and height properties for .map */
 .map {
     border: 5px solid #373684;
+    width: 95%; /* Updated width property */
+    height: 50%; /* Added height property */
+}
+
+/* New style rules for tel-link class */
+.tel-link {
+    background-color: #373684;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
 }
 
 /* Style rules for footer content */
