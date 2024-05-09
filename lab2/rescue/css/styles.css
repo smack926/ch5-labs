@@ -1,0 +1,113 @@
+/*
+Author: Shane Mack
+Date: 2/19/2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+
+/* Style rule for the body selector */
+body {
+    background-color: #f6eee4;
+}
+
+/* Style rule for the img selector */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for navigation area */
+/* Style rule for the nav selector */
+nav {
+    background-color: #2a1f14;
+    color: #fff;
+}
+
+/* Style rule for the nav ul selector */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+/* Style rule for the nav li selector */
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Style rule for the nav li a selector */
+nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+/* Style rule for the main selector */
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Style rule for main p */
+main p {
+    font-size: 1.25em;
+}
+
+/* Style rule for main h3 */
+main h3 {
+    padding-top: 2%;
+}
+
+/* Style rule for main ul */
+main ul {
+    list-style-type: square;
+}
+
+/* Style rule for class selector .link */
+.link {
+    color: #4d3319;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Style rule for class selector .action */
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style rule for id selector #contact */
+#contact {
+    text-align: center;
+}
+
+/* Style rules for footer content */
+/* Style rule for the footer selector */
+footer {
+    background-color: #2a1f14;
+    color: #f6eee4;
+    text-align: center;
+    font-size: 0.85em;
+    padding: 1% 0;
+}
+
+/* Style rule for the footer a selector */
+footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+}
